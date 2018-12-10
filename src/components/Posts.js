@@ -8,9 +8,9 @@ class Posts extends Component {
     this.props.fetchPosts();
   }
 
-  componentWillRevceiveProps(nextProps){
+  componentWillReceiveProps(nextProps){
     if (nextProps.newPost) {
-      this.props.posts.push(nextProps.newPost);
+      this.props.posts.unshift(nextProps.newPost);
     }
   }
 
@@ -29,7 +29,6 @@ class Posts extends Component {
     );
   }
 }
-
 
 Posts.propTypes = {
   fetchPosts: PropTypes.func.isRequired,
