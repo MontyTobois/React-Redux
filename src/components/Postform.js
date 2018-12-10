@@ -29,8 +29,8 @@ class Postform extends Component { // eslint-disable-line react/prefer-stateless
 
   render() {
     return (
-      <div>
-        <h1>Add Post</h1>
+      <div className='post-form'>
+        <h1 className="header">Add Post</h1>
         <form onSubmit={this.onSubmit}>
           <div>
             <label>Title:</label>
