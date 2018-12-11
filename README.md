@@ -11,7 +11,7 @@
 [DEMO](https://react-with-redux.herokuapp.com/)
 
 ## Overview
-In this project, I created a posting webpage that grabs pre-made post from [JSON](https://jsonplaceholder.typicode.com/).
+In this project, I created a posting webpage that grabs pre-made post from [JSONHolder](https://jsonplaceholder.typicode.com/).
 
 ## Instructions
 
